@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Datos personales</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Mi CSS -->
     <link rel="stylesheet" href="css/estilos.css">
-    <script src="js/javascript.js"></script>
 </head>
+
 <body>
-    <h1>DATOS</h1>
-    <p>NOMBRE: JIMMY</p>
-    <p>APELLIDOS: RAMOS MORENO</p>
+
+    <div class="container mt-5">
+
+        <div class="card shadow mx-auto" style="max-width: 500px;">
+
+            <div class="card-body text-center">
+
+                <h1 class="text-danger">DATOS</h1>
+
+                <p class="text-primary fs-4">
+                    NOMBRE: JIMMY
+                </p>
+
+                <p class="text-primary fs-4">
+                    APELLIDOS: RAMOS MORENO
+                </p>
+
+                <button class="btn btn-success" onclick="saludar()">
+                    SALUDAR
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Mi JavaScript -->
+    <script src="js/javascript.js"></script>
+
 </body>
+
 </html>
+```
